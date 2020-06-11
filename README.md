@@ -1,1 +1,1 @@
-# Web-Aplication-for-Student-club
+# Web-Application-for-Student-club
