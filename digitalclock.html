@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Digital Clock</title>
+<style>
+body{
+background:url(download.jpg);
+background-size:cover;
+}
+.clock
+{
+position:absolute;
+top:50%;
+left:50%;
+color:#fff;
+font-size:70px;
+border:2px solid dashed;
+margin-left:20px;
+transform:translateX(-50%),translateY(-50%);
+font-family:sans-serif;
+text-shadow:#F00;
+padding:0px 5px 0px 5px:
+}
+
+</style>
+</head>
+<body>
+<h1 align="center" style="color:#fff; margin-top:100px; font-family:sans-serif; ">Digital clock</h1>
+<div id="cd" class="clock"></div>
+<script>
+function Time()
+{
+var date=new Date();
+var h=date.getHours();
+var m=date.getMinutes();
+var s=date.getSeconds();
+var next="AM";
+if(h==0)
+{
+h=12;
+}
+if(h>12)
+{
+h=h-12;
+next="PM";
+}
+h=(h>10)? "0" + h:h;
+h=(h>10)? "0" + m:m;
+h=(h>10)? "0" + s:s;
+var time=h+ ":" +m ":" +s " "+next;
+document.getElementById("cd").innerText=time;
+document.getElementById("cd").textContent=time;
+setTimeout(Time,1000);
+}
+Time();
+</script>
+
+</html>

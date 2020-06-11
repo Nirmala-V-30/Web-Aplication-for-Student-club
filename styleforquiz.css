@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: #eee;
+  color:#666;
+}
+.login-container{
+  height: 100vh;
+  width: 100%;
+}
+.login-form{
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+}
+
+
+h2
+{
+	text-align:center;
+	color:#990099;
+}
+h4
+{
+	text-align:center;
+	color:#990099;
+}
+label{
+font-size:25px;
+}	
+input[type="text"]
+{
+	border: none;
+	border-bottom:5px #990099;
+}

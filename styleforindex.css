@@ -1,0 +1,193 @@
+.ima{
+	width:40%;
+}
+#cc
+{
+	color:white;
+}
+#abc
+{
+	border-radius:50px;
+}
+a:visited
+{
+	color:white;
+	text-decoration:none;
+}
+a:hover
+{
+	color:white;
+	text-decoration:none;
+}
+a:active
+{
+	color:white;
+	text-decoration:none;
+}
+.no{
+	text-decoration:none;
+	color:white;
+}
+.bgimg 
+{
+	background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('download.jpg'); 
+	background-size : 100% 100%;
+	
+	width : 100%;
+	height : 660px;
+	
+	}
+	.hh
+	{
+		font-weight:bold;
+		color:white;
+	}
+	.nn
+	{
+		font-weight:bold;
+		color:white;
+	}
+.hearderset
+ 
+ { padding-top : 250px;
+ box-sizing : border-box;
+ } 
+.hearderset h2 {
+	font-size : 42px; }
+.hearderset h1 
+{
+	font-size : 62px;
+	font-weight : bold;
+	} /*services*/
+.ourservices
+	{ padding : 100px 0px 60px; 
+	height : 700px; 
+	} 
+.ourservices h1 
+{ font-size : 50px; 
+font-weight : bold;
+ }
+ .rowsetting
+ 
+ { margin : 80px 0px !important ; 
+ 
+} .imgsetting { 
+border-radius : 50%;
+ height : 100px; 
+ width : 100px; 
+ } 
+ h1
+ {
+	 font-size:60%;
+	 color:#990096;
+ }
+  h2
+ {
+	 
+	 color:#990096;
+ }
+ .fa-shopping-cart { 
+ margin-top : 20px; 
+ }
+ .fa-desktop 
+ {
+	 margin-top : 26px; 
+	 }
+.fa-lock 
+{
+	margin-top : 25px;
+
+} 
+.rowsetting p { 
+padding : 10px;
+ color : #6c757d!important;
+ } 
+.rowsetting h2 {
+	margin-top : 20px; 
+	font-weight : bold;
+	font-size : 30px; 
+	}
+/*portfolio*/ .portfolio {
+	height : 1100px;
+	width : 100%; 
+	padding : 100px 0px 50px; 
+	
+} 
+.portfolio h1 {
+	font-size : 50px;
+	font-weight : bold;
+	} 
+	.card { margin-top : 40px;
+	}
+/*ourteam*/ .ourteam { 
+ height : 700px; 
+ padding : 100px 0px 60px;
+ width : 100%; 
+ } 
+ .ourteam h1 { font-size : 50px;
+ font-weight : bold; 
+ } 
+ .teamsetting { 
+ margin-top : 70px !important;
+ }
+ /*copyright*/ .footer { 
+ height : 50px;
+ } 
+ .footer h6 { line-height : 50px; 
+ }
+ /*responsive-mediaquery*/ @media(min-width: 992px) 
+ {
+} @media(min-width: 768px)and(max-width: 991px)
+
+{ 
+.hearderset h2 
+{
+	font-size : 42px; 
+	}
+.hearderset h1 
+{
+	font-size : 62px;
+	font-weight : bold;
+	}
+	} 
+@media(min-width: 575px)and(max-width: 767px)
+ 
+ { }
+ @media(min-width : 480px) and (max-width : 574px)
+ { }
+ @media(max-width:479px ) 
+ {
+	 .hearderset h2 
+	 {
+		 font-size : 22px;
+		 } 
+	.hearderset h1 
+	{
+		font-size : 42px;
+		font-weight : bold; 
+		} 
+		.ourservices 
+		{ 
+		height : 1300px;
+		} 
+	.portfolio 
+	{
+		height : 2600px;
+		} 
+		.ourteam
+		{ 
+		height : 1400px;
+		} 
+		}
+nav{
+
+background-color:#990099;
+}	
+.star 
+{
+	box-sizing: border-box;
+	}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
